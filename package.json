@@ -1,0 +1,21 @@
+{
+  "name": "basev13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.7.0",
+    "@discordjs/voice": "^0.8.0",
+    "discord-rpc-contructor": "^1.0.4",
+    "discord.js": "^14.0.0-dev.1647259751.2297c2b",
+    "discord.js-selfbot-v13": "^0.2.2",
+    "distube": "^4.0.0-dev.2",
+    "libsodium-wrappers": "^0.7.10"
+  }
+}
