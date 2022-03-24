@@ -42,7 +42,7 @@ client
     
 const status = (queue) =>
 	`Volume: \`${queue.volume}%\` | Filter: \`${
-		queue.filters.names.join(', ') || 'Off'
+		queue.filters.join(', ') || 'Off'
 	}\` | Loop: \`${
 		queue.repeatMode
 			? queue.repeatMode === 2
