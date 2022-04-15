@@ -1,4 +1,4 @@
-const { WidgetMember } = require('discord.js-selfbot-v13');
+const Discord = require('discord.js-selfbot-v13');
 module.exports = {
 	name: 'avatar',
 	aliases: ['avt', 'ava'],
